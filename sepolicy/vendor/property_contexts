@@ -48,3 +48,6 @@ ro.product.mod_device              u:object_r:build_prop:s0
 persist.sys.thermal.               u:object_r:vendor_thermal_normal_prop:s0
 sys.thermal.                       u:object_r:vendor_thermal_normal_prop:s0
 vendor.sys.thermal.                u:object_r:vendor_thermal_normal_prop:s0
+
+# XiaomiParts
+persist.lcd.                   u:object_r:persist_lcd_prop:s0
