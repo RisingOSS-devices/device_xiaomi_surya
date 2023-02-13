@@ -43,6 +43,9 @@ TARGET_ENABLE_BLUR := true
 # Exclude AudioFx from build
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Aperture
+TARGET_BUILD_APERTURE_CAMERA := true
+
 #Gapps
 WITH_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := true
