@@ -104,7 +104,12 @@
     <string name="lcd_features_title">LCD features</string>
     <string name="lcd_features_summary">Режим повышенной яркости(HBM), CABC</string>
     <string name="lcd_hbm_title">Режим повышенной яркости(HBM)</string>
+    <string name="lcd_hbm_medium">Средне</string>
+    <string name="lcd_hbm_high">Высоко</string>
     <string name="lcd_hbm_tile_title">HBM</string>
     <string name="lcd_cabc_title">CABC</string>
+    <string name="lcd_cabc_low">Низко (UI)</string>
+    <string name="lcd_cabc_medium">Средне (Видео)</string>
+    <string name="lcd_cabc_high">Высоко (Изображения)</string>
     <string name="lcd_features_info">Режим повышенной яркости (HBM) повышает максимальную яркость экрана. Увеличивает энергопотребление.\n\nCABC (Content Adaptive Backlight Control) изменяет яркость экрана и подстветки основываясь на отоброжаемой информации, чтобы снизить энергопотребление.</string>
 </resources>
