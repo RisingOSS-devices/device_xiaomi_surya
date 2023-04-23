@@ -56,4 +56,5 @@ $(call inherit-product, vendor/miuicamera/config.mk)
 #Gapps
 WITH_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_CORE_GMS := false
 $(call inherit-product-if-exists, vendor/gms/produtcs/gms.mk)
