@@ -49,10 +49,6 @@ TARGET_BUILD_APERTURE_CAMERA := true
 # Next Gen Assistant
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
-# MIUI camera
-$(call inherit-product, vendor/miuicamera/config.mk)
-
->>>>>>> 6674d1b (surya: Enable Next Gen Assistant)
 #Gapps
 WITH_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := true
