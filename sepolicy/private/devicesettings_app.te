@@ -27,7 +27,7 @@ allow devicesettings_app system_app_data_file:{ file lnk_file } create_file_perm
 # Allow binder communication with gpuservice
 binder_call(devicesettings_app, gpuservice)
 
-# Allow devicesettings_app to read and write to cgroup/sysfs_leds/sysfs_thermal/sysfs_vibrator/sysfs_lcd_feature
+# Allow devicesettings_app to read and write to cgroup/sysfs_leds/sysfs_thermal/sysfs_vibrator/sysfs_lcd_feature/sysfs_kcal
 allow devicesettings_app { sysfs_leds sysfs_vibrator}:dir search;
 allow devicesettings_app {
   cgroup
@@ -35,12 +35,13 @@ allow devicesettings_app {
   sysfs_thermal
   sysfs_vibrator
   sysfs_lcd_feature
+  sysfs_kcal
 }:{ file lnk_file } rw_file_perms;
 
 # Allow devicesettings_app read default props
 allow devicesettings_app default_prop:file { read };
 
-#HBM & CABC
+# HBM & CABC
 allow devicesettings_app property_socket:sock_file rw_file_perms;
 allow devicesettings_app persist_lcd_prop:file { read open write getattr map };
 allow devicesettings_app persist_lcd_prop:property_service set;
