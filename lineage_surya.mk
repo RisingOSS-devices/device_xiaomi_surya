@@ -31,9 +31,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Blur
 TARGET_ENABLE_BLUR := true
 
-# Quick tap feature
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
